@@ -1,12 +1,4 @@
-name: Deploy portfolio
-
-on:
-  push:
-    branches:
-      - main
-permissions:
-  contents: write
-
+\
 jobs:
   deploy:
     name: Deploy to GitHub Pages
