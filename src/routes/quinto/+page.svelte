@@ -28,6 +28,16 @@
     { testo: 'Allegato Trasporto Infermi e Soccorso in Ambulanza - Croce Rossa Italiana', fatto: true },
     { testo: 'Allegato Trasporto Infermi - Croce Rossa Italiana', fatto: true },
   ];
+
+
+  const educazione_civica = [
+    { nome: 'Prigione Domestica', ente: 'Prigione Domestica', anno: '2025' },
+    { nome: 'Cyber Security', ente: 'Competenze base sulla sicurezza informatica e come girare in modo sicuro sul web', anno: '2025' },
+    { nome: 'Il nazismo', ente: 'Il nazismo prima e durante la seconda guerra mondiale', anno: '2025' },
+    { nome: 'Progetto 1522', ente: 'Un progetto fatto in singolo riguardante la violenza sulle donne in ambito familiare e non', anno: '2026' },
+
+  ];
+
 </script>
 
 <div class="page-wrapper">

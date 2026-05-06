@@ -27,7 +27,9 @@
 
   const educazione_civica = [
     { nome: 'La  mattanza. Dal silenzio sulla mafia al silenzio della mafia', ente: 'La Mattanza di Carlo Lucarelli é un saggio narrativo crudo e documentato su cosa nostra', anno: '2023' },
-    { nome: 'Calcolatroce Codice Fiscale', ente: 'Calcolatore del codice fiscale in C, progetto scolastico', anno: '2023' },
+    { nome: 'Calcolatroce Codice Fiscale', ente: 'Calcolatore del codice fiscale in C, progetto scolastico', anno: '2024' },
+    { nome: 'Le Ecomafie', ente: 'Una presentazione riguardo le ecomafie fatta in collaborazione con 3 compagni', anno: '2023' },
+
   ];
 </script>
 

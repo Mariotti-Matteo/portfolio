@@ -27,7 +27,8 @@
 
 
   const educazione_civica = [
-    { nome: 'Le Ecomafie', ente: 'Una presentazione riguardo le ecomafie fatta in collaborazione con 3 compagni', anno: '2024' },
+    { nome: 'Quiz della Patente', ente: 'Un progetto fatto in singolo riguardante la patente e la guida sicura', anno: '2025' },
+    { nome: 'Power point popoli antichi', ente: 'Un progetto fatto in gruppo', anno: '2024' },
   ];
 
 </script>
