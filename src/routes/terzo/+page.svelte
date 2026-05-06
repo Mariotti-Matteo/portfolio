@@ -24,6 +24,11 @@
     { nome: 'Cambridge B1', ente: 'Cambridge Assessment', anno: '2023' },
     { nome: 'Guida base HTML e CSS', ente: 'Hackersgen', anno: '2023' },
   ];
+
+  const educazione_civica = [
+    { nome: 'La  mattanza. Dal silenzio sulla mafia al silenzio della mafia', ente: 'La Mattanza di Carlo Lucarelli é un saggio narrativo crudo e documentato su cosa nostra', anno: '2023' },
+    { nome: 'Calcolatroce Codice Fiscale', ente: 'Calcolatore del codice fiscale in C, progetto scolastico', anno: '2023' },
+  ];
 </script>
 
 <div class="page-wrapper">
@@ -35,7 +40,7 @@
     <p class="page-intro">
       L'inizio di tutto. Ho scoperto cosa significa davvero usare un computer, non solo come utente
       ma come qualcuno che può <em>costruire</em> qualcosa. Tante cose nuove, tanta confusione, ma anche
-      tanta curiosità.
+      molta curiosità.
     </p>
   </header>
 
@@ -94,6 +99,24 @@
       {/each}
     </div>
   </section>
+
+
+<section class="section">
+    <h2 class="section-title">Educazione Civica</h2>
+    <div class="cert-list">
+      {#each educazione_civica as c}
+        <div class="cert-card">
+          <div class="cert-icon">🏅</div>
+          <div>
+            <div class="cert-nome">{c.nome}</div>
+            <div class="cert-info">{c.ente} · {c.anno}</div>
+          </div>
+        </div>
+      {/each}
+    </div>
+  </section>
+
+
 
   <div class="nav-anni">
     <span class="nav-anni-empty"></span>

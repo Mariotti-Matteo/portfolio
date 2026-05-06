@@ -24,7 +24,16 @@
     { nome: 'Cambridge B2', ente: 'Cambridge Assessment', anno: '2024' },
     { nome: 'Brevetto Basic Life Support and Defibrillation', ente: 'Croce Rossa Italiana - ASL Città di Torino - Azienda Zero', anno: '2025' },
   ];
+
+
+  const educazione_civica = [
+    { nome: 'Le Ecomafie', ente: 'Una presentazione riguardo le ecomafie fatta in collaborazione con 3 compagni', anno: '2024' },
+  ];
+
 </script>
+
+
+
 
 <div class="page-wrapper">
   <header class="page-header">
@@ -96,6 +105,23 @@
       {/each}
     </div>
   </section>
+
+
+<section class="section">
+    <h2 class="section-title">Educazione Civica</h2>
+    <div class="cert-list">
+      {#each educazione_civica as c}
+        <div class="cert-card">
+          <div class="cert-icon">🏅</div>
+          <div>
+            <div class="cert-nome">{c.nome}</div>
+            <div class="cert-info">{c.ente} · {c.anno}</div>
+          </div>
+        </div>
+      {/each}
+    </div>
+  </section>
+
 
   <div class="nav-anni">
     <a href="{base}/terzo" class="btn-prev">← 3° Anno</a>

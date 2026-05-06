@@ -26,7 +26,7 @@
   </h1>
   <p class="hero-sub">
     Studente di V Informatica presso l'istituto salesiano agnelli.
-    Appassionato di Primo Soccorso e NUE/118 con interesse per programmazione in Python, sistemistica e gestione.
+    Appassionato di Primo Soccorso e NUE/118 con interesse per sistemistica e gestione.
   </p>
   <div class="hero-cta">
     <a href={quintoPath} class="btn-primary">Vedi l'ultimo anno →</a>
