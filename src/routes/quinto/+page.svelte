@@ -31,10 +31,10 @@
 
 
   const educazione_civica = [
-    { nome: 'Prigione Domestica', ente: 'Prigione Domestica', anno: '2025' },
-    { nome: 'Cyber Security', ente: 'Competenze base sulla sicurezza informatica e come girare in modo sicuro sul web', anno: '2025' },
-    { nome: 'Il nazismo', ente: 'Il nazismo prima e durante la seconda guerra mondiale', anno: '2025' },
-    { nome: 'Progetto 1522', ente: 'Un progetto fatto in singolo riguardante la violenza sulle donne in ambito familiare e non', anno: '2026' },
+    { nome: 'Prigione Domestica', ente: 'Prigione Domestica', anno: '2025', emoji:'🏠' },
+    { nome: 'Cyber Security', ente: 'Competenze base sulla sicurezza informatica e come girare in modo sicuro sul web', anno: '2025', emoji:'🛡️' },
+    { nome: 'Il nazismo', ente: 'Il nazismo prima e durante la seconda guerra mondiale', anno: '2025', emoji:'⚔️' },
+    { nome: 'Progetto 1522', ente: 'Un progetto fatto in singolo riguardante la violenza sulle donne in ambito familiare e non', anno: '2026', emoji:'📚' },
 
   ];
 
@@ -98,6 +98,22 @@
       {/each}
     </div>
   </section>
+
+<section class="section">
+    <h2 class="section-title">Educazione Civica</h2>
+    <div class="cert-list">
+      {#each educazione_civica as c}
+        <div class="cert-card">
+          <div class="cert-icon">{c.emoji}</div>
+          <div>
+            <div class="cert-nome">{c.nome}</div>
+            <div class="cert-info">{c.ente} · {c.anno}</div>
+          </div>
+        </div>
+      {/each}
+    </div>
+  </section>
+
 
   <section class="section">
     <h2 class="section-title">Obiettivi dell'anno</h2>
@@ -200,10 +216,10 @@
     max-width: 580px;
   }
 
-  .page-intro em {
+  /* .page-intro em {
     font-style: italic;
     color: #1a1714;
-  }
+  } */
 
   .section {
     margin-bottom: 3.5rem;
@@ -469,6 +485,37 @@
     color: #1a1714;
     background: transparent;
   } */
+
+    .cert-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .cert-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 1.25rem;
+    border: 1.5px solid rgba(26,23,20,0.15);
+    border-radius: 4px;
+    background: #fff;
+  }
+
+  .cert-icon { font-size: 1.4rem; }
+
+  .cert-nome {
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 0.92rem;
+    margin-bottom: 0.15rem;
+  }
+
+  .cert-info {
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #9a9490;
+  }
 
   .btn-prev:hover { background: #1a1714; color: #f8f5f0; }
   /* .btn-contact { background: #e85d26; border-color: #e85d26; color: #fff; }

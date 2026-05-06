@@ -26,9 +26,9 @@
   ];
 
   const educazione_civica = [
-    { nome: 'La  mattanza. Dal silenzio sulla mafia al silenzio della mafia', ente: 'La Mattanza di Carlo Lucarelli é un saggio narrativo crudo e documentato su cosa nostra', anno: '2023' },
-    { nome: 'Calcolatroce Codice Fiscale', ente: 'Calcolatore del codice fiscale in C, progetto scolastico', anno: '2024' },
-    { nome: 'Le Ecomafie', ente: 'Una presentazione riguardo le ecomafie fatta in collaborazione con 3 compagni', anno: '2023' },
+    { nome: 'La  mattanza. Dal silenzio sulla mafia al silenzio della mafia', ente: 'La Mattanza di Carlo Lucarelli é un saggio narrativo crudo e documentato su cosa nostra', anno: '2023', emoji:'🏛️' },
+    { nome: 'Calcolatroce Codice Fiscale', ente: 'Calcolatore del codice fiscale in C, progetto scolastico', anno: '2024', emoji:'🖩' },
+    { nome: 'Le Ecomafie', ente: 'Una presentazione riguardo le ecomafie fatta in collaborazione con 3 compagni', anno: '2023', emoji:'♻️' },
 
   ];
 </script>
@@ -86,6 +86,21 @@
     </div>
   </section>
 
+<section class="section">
+    <h2 class="section-title">Educazione Civica</h2>
+    <div class="cert-list">
+      {#each educazione_civica as c}
+        <div class="cert-card">
+          <div class="cert-icon">{c.emoji}</div>
+          <div>
+            <div class="cert-nome">{c.nome}</div>
+            <div class="cert-info">{c.ente} · {c.anno}</div>
+          </div>
+        </div>
+      {/each}
+    </div>
+  </section>
+
 
 <section class="section">
     <h2 class="section-title">Certificazioni</h2>
@@ -103,20 +118,6 @@
   </section>
 
 
-<section class="section">
-    <h2 class="section-title">Educazione Civica</h2>
-    <div class="cert-list">
-      {#each educazione_civica as c}
-        <div class="cert-card">
-          <div class="cert-icon">🏅</div>
-          <div>
-            <div class="cert-nome">{c.nome}</div>
-            <div class="cert-info">{c.ente} · {c.anno}</div>
-          </div>
-        </div>
-      {/each}
-    </div>
-  </section>
 
 
 

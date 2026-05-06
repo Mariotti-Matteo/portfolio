@@ -27,8 +27,8 @@
 
 
   const educazione_civica = [
-    { nome: 'Quiz della Patente', ente: 'Un progetto fatto in singolo riguardante la patente e la guida sicura', anno: '2025' },
-    { nome: 'Power point popoli antichi', ente: 'Un progetto fatto in gruppo', anno: '2024' },
+    { nome: 'Quiz della Patente', ente: 'Un progetto fatto in singolo riguardante la patente e la guida sicura', anno: '2025', emoji: '🚙' },
+    { nome: 'Power point popoli antichi', ente: 'Un progetto fatto in gruppo', anno: '2024', emoji: '📜' },
   ];
 
 </script>
@@ -92,6 +92,22 @@
     </div>
   </section>
 
+<section class="section">
+    <h2 class="section-title">Educazione Civica</h2>
+    <div class="cert-list">
+      {#each educazione_civica as c}
+        <div class="cert-card">
+          <div class="cert-icon">{c.emoji}</div>
+          <div>
+            <div class="cert-nome">{c.nome}</div>
+            <div class="cert-info">{c.ente} · {c.anno}</div>
+          </div>
+        </div>
+      {/each}
+    </div>
+  </section>
+
+
   <section class="section">
     <h2 class="section-title">Certificazioni</h2>
     <div class="cert-list">
@@ -108,20 +124,6 @@
   </section>
 
 
-<section class="section">
-    <h2 class="section-title">Educazione Civica</h2>
-    <div class="cert-list">
-      {#each educazione_civica as c}
-        <div class="cert-card">
-          <div class="cert-icon">🏅</div>
-          <div>
-            <div class="cert-nome">{c.nome}</div>
-            <div class="cert-info">{c.ente} · {c.anno}</div>
-          </div>
-        </div>
-      {/each}
-    </div>
-  </section>
 
 
   <div class="nav-anni">
