@@ -33,9 +33,13 @@
   const educazione_civica = [
     { nome: 'Prigione Domestica', ente: 'Prigione Domestica', anno: '2025', emoji:'🏠' },
     { nome: 'Cyber Security', ente: 'Competenze base sulla sicurezza informatica e come girare in modo sicuro sul web', anno: '2025', emoji:'🛡️' },
-    { nome: 'Il nazismo', ente: 'Il nazismo prima e durante la seconda guerra mondiale', anno: '2025', emoji:'⚔️' },
+    { nome: 'Il nazismo', ente: 'Il nazismo prima e durante la seconda guerra mondiale', anno: '2026', emoji:'⚔️' },
     { nome: 'Progetto 1522', ente: 'Un progetto fatto in singolo riguardante la violenza sulle donne in ambito familiare e non', anno: '2026', emoji:'📚' },
-
+    { nome: 'Incontro con Roberto Saviano', ente: 'Incontro con Roberto Saviano a partire dal libro “L’amore mio non muore”.', anno: '2026', emoji:'📖' },
+   { nome: 'Primo Levi', ente: 'La prigionia del lager: Primo Levi e il concetto di “zona grigia” e vergogna del sopravvissuto.', anno: '2026', emoji:'⛓️' },
+   { nome: 'Operazioni Naziste', ente: 'Le operazioni Aktion T4 e progetto Lebensborn.', anno: '2026', emoji:'🪖' },
+    { nome: 'La Costituzione', ente: 'La Costituzione e i suoi principi fondamentali.', anno: '2026', emoji:'📜' },
+    { nome: 'Il movimento del ’68', ente: 'Il movimento del ’68 e le conseguenze', anno: '2026', emoji:'📣' },
   ];
 
 </script>
