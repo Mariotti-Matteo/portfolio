@@ -28,7 +28,7 @@
 
   const educazione_civica = [
     { nome: 'Quiz della Patente', ente: 'Un progetto fatto in singolo riguardante la patente e la guida sicura', anno: '2025', emoji: '🚙' },
-    { nome: 'Power point popoli antichi', ente: 'Un progetto fatto in gruppo', anno: '2024', emoji: '📜' },
+    { nome: 'Power point popoli antichi', ente: 'Il PRESBITERIANESIMO in collaborazione con Viganò Luca e Attanasio Edoardo', anno: '2024', emoji: '📜' },
   ];
 
 </script>
