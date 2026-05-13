@@ -24,7 +24,7 @@
   const obiettivi = [
     { testo: 'Iscrizione Università', fatto: false },
     { testo: 'Completamento Tirocinio TSSA - CRI', fatto: false },
-    { testo: 'Arruolamento nel Corpo Militare di Croce Rossa Italiana', fatto: false },
+    { testo: 'Arruolamento nel Corpo Militare di Croce Rossa Italiana', fatto: true },
     { testo: 'Allegato Trasporto Infermi e Soccorso in Ambulanza - Croce Rossa Italiana', fatto: true },
     { testo: 'Allegato Trasporto Infermi - Croce Rossa Italiana', fatto: true },
   ];
@@ -36,8 +36,8 @@
     { nome: 'Il nazismo', ente: 'Il nazismo prima e durante la seconda guerra mondiale', anno: '2026', emoji:'⚔️' },
     { nome: 'Progetto 1522', ente: 'Un progetto fatto in singolo riguardante la violenza sulle donne in ambito familiare e non', anno: '2026', emoji:'📚' },
     { nome: 'Incontro con Roberto Saviano', ente: 'Incontro con Roberto Saviano a partire dal libro “L’amore mio non muore”.', anno: '2026', emoji:'📖' },
-   { nome: 'Primo Levi', ente: 'La prigionia del lager: Primo Levi e il concetto di “zona grigia” e vergogna del sopravvissuto.', anno: '2026', emoji:'⛓️' },
-   { nome: 'Operazioni Naziste', ente: 'Le operazioni Aktion T4 e progetto Lebensborn.', anno: '2026', emoji:'🪖' },
+    { nome: 'Primo Levi', ente: 'La prigionia del lager: Primo Levi e il concetto di “zona grigia” e vergogna del sopravvissuto.', anno: '2026', emoji:'⛓️' },
+    { nome: 'Operazioni Naziste', ente: 'Le operazioni Aktion T4 e progetto Lebensborn.', anno: '2026', emoji:'🪖' },
     { nome: 'La Costituzione', ente: 'La Costituzione e i suoi principi fondamentali.', anno: '2026', emoji:'📜' },
     { nome: 'Il movimento del ’68', ente: 'Il movimento del ’68 e le conseguenze', anno: '2026', emoji:'📣' },
   ];
